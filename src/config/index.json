@@ -1,0 +1,144 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Testimonios",
+      "href": "testimonials"
+    },
+    {
+      "name": "Servicios",
+      "href": "services"
+    },
+
+    {
+      "name": "Planes",
+      "href": "planes"
+    },
+    {
+      "name": "Contactame",
+      "href": "contact"
+    }
+  ],
+  "callToAction": {
+    "text": "Contactame",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Bienvenido a la Página de Leidy Saa",
+    "subtitle": "Tu Experta en Reflexología Podal.",
+    "description": "Soy Leidy Saa, una fisioterapeuta especializada en reflexología podal con 8 años de experiencia. A lo largo de mi carrera, he ayudado a muchas personas a encontrar alivio y bienestar a través de técnicas de reflexología y cuidados personalizados. Mi objetivo es mejorar tu salud y calidad de vida, utilizando métodos naturales y efectivos..",
+    "img": "/assets/images/IMG_9593.jpg",
+    "primaryAction": {
+      "text": "Contactame",
+      "href": "#"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "items": [
+      {
+        "title": " María G.",
+        "description": "Leidy es increíble. Desde que comencé con sus sesiones de reflexología, mi dolor de espalda ha desaparecido. ¡Totalmente recomendada!",
+        "img": "/assets/images/IMG_9544.jpg"
+      },
+      {
+        "title": " Juan P",
+        "description": "Gracias a los consejos de Leidy, he perdido 10 kilos de forma saludable y me siento mejor que nunca.",
+        "img": "/assets/images/IMG_9627.jpg"
+      }
+    ]
+  },
+  "services": {
+    "title": "Servicios ",
+    "subtitle": "All the best technologies out there!",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "items": [
+      {
+        "name": "Servicio 1",
+        "description": "Técnica milenaria que se enfoca en los puntos de presión en los pies para mejorar la salud y el equilibrio del cuerpo.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Servicio 2",
+        "description": "Adaptadas a tus necesidades específicas, ya sea para aliviar el estrés, mejorar la circulación o tratar dolencias específicas.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Servicio 3",
+        "description": "Recetas saludables y consejos para una alimentación balanceada que complementen tus tratamientos de reflexología.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Servicio 4",
+        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "planes": {
+    "title": "planes",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "sections": [
+      {
+        "name": "Teléfono",
+        "href": "#",
+        "content": "+123 456 7890"
+      },
+      {
+        "name": "Email",
+        "href": "#",
+        "content": "contacto@leidysaareflexologia.com"
+      },
+      {
+        "name": "Horarios de Atención:",
+        "href": "#",
+        "content": "Lunes a Viernes: 9:00 AM - 6:00 PM Sábado: 10:00 AM - 2:00 PM"
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+    }
+  }
+}
