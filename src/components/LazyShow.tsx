@@ -1,6 +1,6 @@
-import React, { MutableRefObject, useEffect, useRef, useState } from "react";
+import React, { MutableRefObject, useEffect, useRef, useState } from 'react';
 
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from 'framer-motion';
 
 function useOnScreen(
   ref: MutableRefObject<HTMLDivElement | null>,
