@@ -4,7 +4,7 @@ import { motion, useAnimation } from 'framer-motion';
 
 function useOnScreen(
   ref: MutableRefObject<HTMLDivElement | null>,
-  rootMargin = '0px'
+  rootMargin = "0px"
 ) {
   const [isIntersecting, setIntersecting] = useState(false);
 
@@ -41,14 +41,14 @@ const LazyShow = ({ children }: { children: React.ReactChild }) => {
         opacity: 1,
         transition: {
           duration: 0.5,
-          ease: 'easeOut',
+          ease: "easeOut",
         },
       });
     }
   }, [onScreen, controls]);
   return (
     <motion.div
-      className='lazy-div'
+      className="lazy-div"
       ref={rootRef}
       initial={{ opacity: 0, x: -50 }}
       animate={controls}

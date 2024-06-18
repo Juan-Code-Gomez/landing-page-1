@@ -8,7 +8,7 @@ const Product = () => {
   const [firstItem, secondItem] = testimonials.items;
 
   return (
-    <section className={`bg-background py-8`} id='testimonials'>
+    <section className={`bg-background py-8`} id="testimonials">
       <div className={`container max-w-5xl mx-auto m-8`}>
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
@@ -16,7 +16,7 @@ const Product = () => {
           {testimonials.title.split(" ").map((word, index) => (
             <span
               key={index}
-              className={index % 2 ? 'text-white' : 'text-white'}
+              className={index % 2 ? "text-white" : "text-white"}
             >
               {word}{" "}
             </span>
@@ -32,7 +32,7 @@ const Product = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className='h-6/6'
+              className="h-6/6"
               src={firstItem?.img}
               alt={firstItem?.title}
             />
@@ -41,7 +41,7 @@ const Product = () => {
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className='h-6/6'
+              className="h-6/6"
               src={secondItem?.img}
               alt={secondItem?.title}
             />
