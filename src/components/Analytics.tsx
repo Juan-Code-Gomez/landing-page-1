@@ -12,9 +12,9 @@ const App = () => {
     const handleRouteChange = (url: string) => {
       gtag.pageview(url);
     };
-    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     };
   }, [router.events]);
 
@@ -22,12 +22,12 @@ const App = () => {
     <>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
-        strategy="afterInteractive"
+        strategy='afterInteractive'
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
       <Script
-        id="gtag-init"
-        strategy="afterInteractive"
+        id='gtag-init'
+        strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -39,7 +39,7 @@ const App = () => {
           `,
         }}
       />
-      <Script async src={GA_ADS_ID} crossOrigin="anonymous" />
+      <Script async src={GA_ADS_ID} crossOrigin='anonymous' />
     </>
   );
 };
